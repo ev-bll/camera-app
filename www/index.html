@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body>
+
+        <div data-role="page" id="pageone">
+            <div data-role="panel" id="myPanel"> 
+                <h2>Panel Header</h2>
+                <a onClick="firstEntry();"><p>1st entry</p></a>
+                <a onClick="secondEntry();"><p>2nd entry</p></a>
+                <a><p>3rd entry</p></a>
+            </div> 
+
+            <div data-role="header">
+                <a href="#myPanel" class="ui-btn ui-btn-inline"><img src="img/icon-menu.png"></a>
+                <h1>Standard Page Header</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <img id="myImage">
+            </div>
+
+            <div data-role="footer">
+                <h1>Footer Text</h1>
+            </div> 
+        </div> 
+        
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/myjs.js"></script>
+    </body>
+</html>
