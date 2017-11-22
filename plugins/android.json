@@ -12,6 +12,9 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.eva.camera"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.eva.camera"
     }
   },
   "dependent_plugins": {}
